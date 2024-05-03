@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiospublic=axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://bistro-boss-server-qbx0.onrender.com'
 })
 
 export default function useaxiospublic(){

@@ -11,7 +11,7 @@ export default function Testimonials() {
     const [reviews, setreviews] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/review')
+        fetch('https://bistro-boss-server-qbx0.onrender.com/review')
             .then(res => res.json())
             .then(data => setreviews(data))
     }, [])

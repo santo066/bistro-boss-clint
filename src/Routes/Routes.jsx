@@ -70,7 +70,7 @@ export const router = createBrowserRouter([
       {
         path: 'updateitem/:id',
         element: <AdminRoute><Updateitem></Updateitem></AdminRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
+        loader: ({ params }) => fetch(`https://bistro-boss-server-qbx0.onrender.com/menu/${params.id}`)
       },
       {
         path: 'users',
